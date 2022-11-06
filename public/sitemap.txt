@@ -1,0 +1,5 @@
+https://stellular-lamington-26afbc.netlify.app/
+https://stellular-lamington-26afbc.netlify.app/dashboard
+https://stellular-lamington-26afbc.netlify.app/login
+https://stellular-lamington-26afbc.netlify.app/*
+https://stellular-lamington-26afbc.netlify.app/models
