@@ -1,0 +1,69 @@
+:root {
+  --whiteshade: #FFFFFF;
+  --red-light: #EA302B;
+  /* --red-light: #36f306; */
+  --blue-light: #2195EC;
+  /* --blue-light: #479FC8; */
+  --blue-dark: #00425F;
+  --ash-background: #F3F5F6;
+  --ash-light: #7f7f7f;
+  --ash-dark: #191919;
+  --orange: #F5772F;
+ 
+}
+
+
+html{
+  font-size: 16px;
+  cursor: pointer;
+  overflow-x: hidden;
+  line-height: 1.6;
+  width: 100%;
+}
+body {
+  font-family: 'Mulish';
+  background-color: var(--whiteshade);
+  width: 100%;
+ 
+  margin: 0px;
+}
+h1{
+  font-size: 2rem;
+  color: var(--ash-dark);
+}
+h2{
+font-size: 1.5rem;
+color: var(--ash-dark);
+}
+h3{
+font-size: 1.5rem;
+color: var(--ash-dark);
+}
+
+a{
+text-decoration: none;
+
+}
+
+@media screen and (max-width: 30rem){
+html{
+  font-size: 16px;
+  cursor: pointer;
+  overflow-x: none;
+  line-height: 1.6;
+
+}
+
+.mobile{
+  display: flex;
+}
+
+.desktop{
+  display: none !important;
+}
+
+}
+
+@media screen and (max-width: 65rem){
+
+}

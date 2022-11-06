@@ -1,0 +1,215 @@
+
+.links{
+    display: none;
+  
+}
+.desktop-links-container{
+    
+  
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    box-shadow: 0px -2px 2px 2px rgb(188, 188, 188);
+    max-height: 20vh;
+}
+.logo{
+    width: 20%;
+  
+}
+.logo > h1{
+    white-space: nowrap;
+   
+}
+.desktop-links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+.desktop-links h3{
+    color: var(--ash-light);
+}
+.desktop-links h3:hover{
+    color: var(--ash-dark);
+}
+.links h3{
+    color: var(--ash-light);
+}
+.links h3:hover{
+    color: var(--ash-dark);
+}
+.image-div{
+    width: 13%;
+}
+h2{
+    color: var(--ash-light);
+}
+h3{
+    color: var(--ash-light);
+    font-size: 1rem;
+}
+.desktop-applynow-div{
+    display: flex;
+    align-items: center;
+}
+.desktop-applynow-div{
+    display: flex;
+    align-items: center;
+}
+.desktop-applynow-div:hover > button{
+    color: var(--ash-dark);
+    transform: scale(1,1.02)
+}
+.desktop-applynow-div:hover > #desktop-rocket-div{
+background-color: var(--red-light);
+
+}
+.desktop-applynow-div:hover > #desktop-rocket-div > img{
+    transform: scaleY(1);
+    
+    }
+.desktop-applynow-div button{
+    background-color: var(--whiteshade);
+    border: none;
+    color: var(--ash-light);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.applynow-div{
+    display: none;
+}
+.applynow-div:hover > button{
+    color: var(--ash-dark);
+    transform: scale(1,1.02)
+}
+.applynow-div:hover > #rocket-div{
+background-color: var(--red-light);
+
+}
+.applynow-div:hover > #rocket-div > img{
+    transform: scaleY(1);
+    
+    }
+.applynow-div button{
+    background-color: var(--whiteshade);
+    border: none;
+    color: var(--ash-light);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.desktop-applynow-div button{
+    background-color: var(--whiteshade);
+    border: none;
+    color: var(--ash-light);
+    font-size: 1rem;
+    font-weight: 500;
+}
+a{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#desktop-rocket-div{
+    height: 35px;
+    width: 35px;
+    background-color: var(--blue-light);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#desktop-rocket-div img{
+    height: 15px;
+    width: 15px;
+    color: var(--whiteshade);
+    transform: scaleY(-1);
+    
+}
+#rocket-div{
+    height: 35px;
+    width: 35px;
+    background-color: var(--blue-light);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#rocket-div img{
+    height: 15px;
+    width: 15px;
+    color: var(--whiteshade);
+    transform: scaleY(-1);
+    
+}
+.menu-image{
+    display: none;
+}
+.menu-image img{
+    display: none;
+}
+
+@media screen and (max-width: 30rem){
+    .navbar-container{
+        display: flex;
+       flex-direction: column;
+  background-color: var(--whiteshade);
+  width: 100%;
+  padding: 0;
+  align-items: center;
+  align-self: center;
+position: absolute;
+min-height: 10vh;
+
+    }
+    .navbar-container-height{
+        min-height: 40vh;
+       
+    }
+    .menu-image{
+        display: flex;
+        width: 100%;
+        margin-right: 10%;
+        justify-content: end;
+        min-height: 10vh;
+        align-content: center;
+        align-self: center;
+        align-items: center;
+        transition: .5s;
+    }
+   
+    .menu-image img{
+        display: flex;
+        height: 25px;
+        width: 25px;
+    }
+    .image-div{
+    display: none;
+    }
+    .links{
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       background-color: var(--whiteshade);
+      
+     height: 50vh;
+    
+       
+    }
+    .links div:hover{
+       
+       background-color: var(--blue-light);
+
+    }
+    .links div h3{
+        text-align: center;
+        
+     }
+     .links div h3:hover{
+        text-align: center;
+        color: var(--whiteshade);
+     }
+    .applynow-div{
+        display: flex;
+        position: absolute;
+    }
+}

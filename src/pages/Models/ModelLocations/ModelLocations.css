@@ -1,0 +1,12 @@
+
+
+  ul li {
+    background: #cce5ff;
+    color: var(--blue-light);
+    margin: 5px;
+    width: 100%;
+  }
+  .model-locations{
+    display: flex;
+    justify-content: center;
+  }

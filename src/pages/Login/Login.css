@@ -1,0 +1,61 @@
+
+.blue-button{
+  border-radius: 10px;
+  background-color: var(--blue-light);
+  color: var(--whiteshade);
+  padding: 2% 6% 2% 6%;
+  max-height: 200px;
+  max-width: 280px;
+  border: none;
+  white-space: nowrap; 
+  margin: 3%;
+}
+.blue-button:hover{
+  color: var(--whiteshade);
+  background-color: var(--red-light);
+  transform: scale(1.03,1.1)
+}
+
+.registeration-div {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 5%;
+}
+.registeration-div label {
+  text-align: left;
+  display: block;
+}
+.registeration-div img {
+    max-width: 200px;
+    max-height: 200px;
+  
+  }
+
+.registeration-div input, .registeration-div textarea, .registeration-div select {
+  width: 100%;
+  padding: 0.8rem 0.6rem;
+  margin: 0.7rem 0;
+  border: 1px solid var(--ash-light);
+  box-sizing: border-box;
+  display: block;
+  border-radius: 0.5rem;
+}
+
+.checkbox{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.checkbox label{
+    white-space: nowrap;
+}
+.checkbox input{
+    display: flex;
+    justify-content: right;
+}
